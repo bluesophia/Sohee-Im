@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: dotum, gulim, malgun gothic, Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #444444;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #444444;
+	text-decoration: none;
+}
+img{
+	margin: 0;
+	padding:0;
+	display: block;
+}
+ul{
+	list-style:none;
+	margin: 0;
+	padding:0;
+}
+element.style{
+	clear:both;
+	height: 0.5px;
+}
+
+
+/*header*/
+#headerWrap{
+	position: relative;
+	clear: both;
+	margin: auto;
+	width: 1000px;
+	display: block;
+}
+#headerWrap2{
+	position: relative;
+	height: 85px;	
+}
+#headerTop{
+	float: left;
+	margin-top:20px;
+}
+
+#logo{
+	width: 160px;
+}
+#headerMenu{
+	float: right;
+	font-size: 11px;
+}
+#headerMenu li{
+	float: left;
+	font-size: 11px;
+	margin-left: 15px;
+}
+.headerMenu2{
+	float: right;
+	margin-top: 10px;
+}
+#headerNavi1{
+	float: right;
+	width: 640px;
+	margin-top:10px;
+	height: 55px;
+	margin-right: 10px;
+
+}#headerNavi2 #topMenu li{
+	float: left;
+	margin-top:12px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#body{	
+	position: relative;
+	clear: both;
+	display: block;
+	margin: auto;
+	width: 1000px;
+}	
+/*section1*/
+.contents{
+	position: relative;
+	clear: both;
+	display: block;
+	margin: auto;
+	width: 1000px;
+}	
+#contentbox1{
+	float: left;
+	width: 710px;
+}
+#notice{
+	float: right;
+	width: 273px;
+	border: 1px solid #dadada;
+	height: 192px;
+}
+#noticeName1{
+	height: 15px;
+	margin-top: 25px;
+	margin-left: 20px;
+	width: 235px;
+	color: #003366;
+	font-size: 15px;
+	float: left;	
+	display: block;
+	clear: both;	
+}
+#noticeimg{
+	margin-right: 10px;
+	text-align: right;
+}
+#noticeText
+{
+	width: 235px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+#noticeText li{
+	list-style:none;
+	padding-left: 10px;
+	height: 23px;
+}
+
+.contentbox2{
+	float: right;
+	width: 273px;
+	border: border: 1px solid #dadada;
+	height: 192px;	
+}
+.contentbox3{
+	float: right;
+	width: 275px;
+	margin-top: 15px;
+}
+#imgbtn{
+	position:absolute;
+}
+#imgbtn2{
+	float: right;
+	margin-left: 1px;
+}
+/*section2*/
+#section2{
+	margin-top:15px;
+	display: block;
+}
+.contentbox4{
+	float: left;
+	width: 708px;
+	height: 220px;
+	border: 1px solid #dadada;
+}
+#event{
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+#qna{
+	float: left;
+	margin-top:25px;
+	margin-left: 30px;
+}
+#contentbox6{
+	float: right;
+	width: 275px;
+	height: 222px;
+	background: #4272d1;
+	margin-left: 15px;
+	display: block;
+}
+/*section3*/
+#section3{
+	margin-top:15px;
+}
+#contentbox7{
+	float: left;
+	width: 708px;
+	height: 220px;
+	border: 1px solid #dadada;
+	display: block;
+}
+#service1{
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+#service2{
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+.s1{
+	font-size: 11px;
+	color:#999999;
+}
+.p1{
+	height: 15px;
+	width: 235px;	
+	color: #003366;
+	font-size: 15px;
+	float: left;	
+	display: block;
+	clear: both;	
+}
+#contentbox9{
+	float: left;
+	width: 273px;
+	height: 220px;
+	border: 1px solid #dadada;
+	margin-left: 15px;
+}
+/*section4*/
+#section4{
+	margin-top:15px;
+}
+#contentbox10{
+	float: left;
+	width: 346px;
+	height: 220px;
+	border: 1px solid #dadada;
+	background-position: 215px 100px;	
+	display: block;
+}
+#contentbox11{
+	float: left;
+	width: 346px;
+	height: 220px;
+	border: 1px solid #dadada;
+	background-position: 215px 100px;
+	margin-left: 15px;	
+	display: block;
+}
+#contentbox12{
+	float: right;
+	width: 273px;
+	height: 220px;
+	border: 1px solid #dadada;
+	margin-left: 15px;
+	display: block;		
+}
+/*footer*/
+#footer{
+	margin-top:30px;
+	background: #f5f5f5;
+	border-top: 1px #d9d9d9 solid;
+	position: relative;
+	clear: both;
+	margin:auto;
+	width: 100%;
+	display: block;
+}
+#footer1{
+	width: 1000px;
+	margin: auto;
+	margin-top:13px;
+	margin-bottom: 13px;
+	display: block;
+}
+#footer1 li{
+	float: left;
+	margin-left: 10px;
+}
+.footline{
+	width: 1000px;
+	height: 1px;
+	background: #d9d9d9;
+	display: block;
+}
+#footer2{
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+	display: block;
+}
+#footerLogo{
+	float: left;
+	width: 140px;
+	padding-top: 5px;
+	display: block;
+}
+#footerul{
+	float: left;
+	line-height: 20px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+}
+#fimg1{
+	float: right;
+	width: 110px;
+	padding-top: 5px;
+}
+#fimg2{
+	float: right;
+	width: 110px;
+	padding-top: 5px;
+}
+#fimg3{
+	float: right;
+	width: 110px;
+	padding-top: 5px;
+}
